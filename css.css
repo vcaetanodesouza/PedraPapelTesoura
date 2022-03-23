@@ -3,9 +3,14 @@
     font-weight: 400;
 }
 
+body {
+    background-color: rgb(37, 37, 37);
+}
+
 #titulo {
     text-align: center;
-    
+    margin-bottom: 50px;
+    color: white;
 }
 
 #placar {
@@ -21,6 +26,9 @@
     width: 200px;
     padding: 20px;
     color: #fff;
+    max-height: 400px;
+    background-image : url('img/kauan.webp');
+    
 }
 
 #jogador {
@@ -35,6 +43,7 @@
     text-align: center;
     font-size: 40px;
     width: 70px;
+    color: white;
 }
 
 #jogador-nome, #computador-nome {
@@ -72,11 +81,12 @@ ul#jogador-escolha li, ul#computador-escolha li {
 }
 
 ul#jogador-escolha li a, ul#computador-escolha li a {
-    opacity: .2;
+    opacity: .3;
 }
 
 ul#jogador-escolha li a:hover, ul#jogador-escolha li a.selecionado, ul#computador-escolha li a.selecionado {
     opacity: 1;
+    padding-top: 200px;
 }
 
 ul#jogador-escolha li a img, ul#computador-escolha li a img {
@@ -87,6 +97,11 @@ ul#jogador-escolha li a img, ul#computador-escolha li a img {
     background-color: #b2cec3;
     border-radius: 5px;
     font-size: 30px;
-    margin: 40px 0;
     padding: 20px;
+    width: 22rem;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    margin-top: 30px;
+    color: rgb(29, 29, 29);
 }
